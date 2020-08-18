@@ -1,0 +1,12 @@
+<form [formGroup]="form">
+	<div class="form-group">
+		<ng-container *ngFor="let product of mock">
+			<app-button [formControl]="form.controls['btn']"
+						[product]="product"
+						(checked)="productChange($event)">
+				{{product.name}}
+			</app-button>
+		</ng-container>
+	</div>
+</form>
+

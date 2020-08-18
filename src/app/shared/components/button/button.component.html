@@ -1,0 +1,14 @@
+
+<label>
+	<input	type="radio"
+			[formControl]="ngControl.control"
+			(click)="checkedProduct()"
+			[value]="product"
+			ngDefaultControl>
+	<span>
+		<ng-content></ng-content>
+		<mat-icon aria-hidden="false">help_outline</mat-icon>
+	</span>
+
+</label>
+

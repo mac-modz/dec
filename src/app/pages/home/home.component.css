@@ -1,0 +1,16 @@
+.container {
+    margin: 20px 50px
+}
+
+.mat-expansion-panel {
+    background: #fff;
+    color: #111;
+}
+
+.mat-expansion-panel-header-title {
+    color: #111;
+}
+
+.mat-expansion-indicator::after {
+    color: #111;
+}

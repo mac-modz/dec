@@ -1,0 +1,17 @@
+<div class="container">
+	<mat-expansion-panel (opened)="panelOpenState = true"
+						 (closed)="panelOpenState = false">
+		<mat-expansion-panel-header>
+			<mat-panel-title>
+				Wybór produktów
+			</mat-panel-title>
+		</mat-expansion-panel-header>
+		<app-custom-form-controls (data)="getChangedProduct($event)"></app-custom-form-controls>
+	</mat-expansion-panel>
+</div>
+
+<span>
+	Home Component: data from Button Event Emitter ->
+	{{product | json}}
+</span>
+
