@@ -6,7 +6,6 @@ import { ProductMock } from '../../mock/product-mock';
 @Component({
     selector: 'app-custom-form-controls',
     templateUrl: './custom-form-controls.component.html',
-    styleUrls: ['./custom-form-controls.component.css']
 })
 export class CustomFormControlsComponent {
     @Output() data: EventEmitter<Product> = new EventEmitter<Product>();

@@ -5,7 +5,7 @@ import { Product } from '../../types/product';
 @Component({
     selector: 'app-button',
     templateUrl: './button.component.html',
-    styleUrls: ['./button.component.css']
+    styleUrls: ['./button.component.scss']
 })
 export class ButtonComponent implements ControlValueAccessor {
     @Input() product: Product;

@@ -4,7 +4,7 @@ import { Product } from '../../shared/types/product';
 @Component({
     selector: 'app-home',
     templateUrl: './home.component.html',
-    styleUrls: ['./home.component.css']
+    styleUrls: ['./home.component.scss']
 })
 export class HomeComponent{
     public panelOpenState = false;

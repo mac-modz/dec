@@ -1,0 +1,29 @@
+label {
+    float:left;
+    margin:16px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+
+    span {
+      text-align: center;
+      padding: 40px 80px;
+      font-size: 32px;
+      display: block;
+    }
+    input {
+      position:absolute;
+      top:-20px;
+      &:checked + span {
+        background-color:#03396c;
+        color:#F7F7F7;
+      }
+    }
+    mat-icon {
+      margin-left: 50px;
+      margin-top: 30px;
+      position: absolute;
+    }
+}
+
+
